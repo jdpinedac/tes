@@ -2,7 +2,6 @@ name: PruebaSinNada
 on:
   workflow_dispatch:
   workflow_call:
-  push:
 jobs:
   With-VPN:
     runs-on: ubuntu-latest
