@@ -2,6 +2,9 @@ name: Elsegundonombre
 on:
   workflow_dispatch:
   workflow_call:
+  push:
+    branches:
+      - '*'
 jobs:
   With-VPN:
     runs-on: ubuntu-latest
