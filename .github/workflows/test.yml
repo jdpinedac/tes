@@ -6,11 +6,6 @@ on:
 jobs:
   With-VPN:
     runs-on: ubuntu-latest
-    env:
-      AWS_PROFILE: ${{ vars.AWS_PROFILE }}
-      AWS_REGION: ${{ vars.AWS_REGION }}
-      TG_DIRECTORY: ${{ vars.TG_DIRECTORY }}
-      CW_NAMESPACE: ${{ vars.CW_NAMESPACE }}
     permissions:
       contents: read
       id-token: write
