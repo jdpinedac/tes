@@ -1,4 +1,4 @@
-name: PruebaSinNada
+name: OtroNombre
 on:
   workflow_dispatch:
   workflow_call:
